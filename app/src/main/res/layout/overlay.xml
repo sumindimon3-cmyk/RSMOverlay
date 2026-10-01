@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_panel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_header"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="RSM cheats"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="t.me/RSM_CHEATS"
+            android:textColor="#bbbbbb"
+            android:textSize="11sp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:minWidth="260dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Switch android:id="@+id/sw_box"      android:text="Box"      android:textColor="#dddddd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Switch android:id="@+id/sw_filled"   android:text="Filled"   android:textColor="#dddddd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Switch android:id="@+id/sw_health"   android:text="Health"   android:textColor="#dddddd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Switch android:id="@+id/sw_armor"    android:text="Armor"    android:textColor="#dddddd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Switch android:id="@+id/sw_skeleton" android:text="Skeleton" android:textColor="#dddddd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Switch android:id="@+id/sw_chams"    android:text="Chams"    android:textColor="#dddddd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Switch android:id="@+id/sw_ragdoll"  android:text="Ragdoll"  android:textColor="#dddddd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

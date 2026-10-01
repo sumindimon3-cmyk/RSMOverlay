@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.RSM" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:textColor">#e0e0e0</item>
+    </style>
+</resources>
